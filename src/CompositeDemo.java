@@ -6,6 +6,7 @@ public class CompositeDemo {
 	/**
 	 * @param args
 	 */
+	//D0280505 邱勝敏
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//test
