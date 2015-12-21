@@ -21,10 +21,10 @@ abstract class Component {
 }
 
 //"Composite"
-class Composite extends Component {
+class Question extends Component {
 	ArrayList<Component> list;
 	
-	public Composite() {
+	public Question() {
 	   list = new ArrayList<Component>();
 	}
 	
@@ -40,6 +40,13 @@ class Composite extends Component {
 		   c.op();
 		 }
 	}  
+}
+
+class Exam extends Component {
+	// OPERATION in LEAF
+	void op() {
+	// ...
+	}
 }
 
 //"Client"
